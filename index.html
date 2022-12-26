@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Semester 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img class="logo-img" src="assets/icon/partner.png" alt="">
+            <h1 class="logo-title">Taufiq</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#jasa">JASA</a></li>
+                <li><a href="mailto:taufiqn888@gmail.com">KONTAK</a></li>
+            </ul>
+        </nav>
+        <button class="btn-cta"onclick="redirInstagram()">Follow Saya</button>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <p class="title">Hello, Taufiq In Here!</p>
+            <p class="description">Just Ordinary Person</p>
+            <img class="img-foto" src="assets/foto/IMG_20221014_160557.jpg" alt="Foto Saya">
+        </div>
+    </div>
+    <div class="parallax">
+        <div class="tentang">
+            <p class="title">Saya Adalah Pelajar</p>
+            <p class="description">Ngoding aja dulu, jagonya belakangan.</p>
+            <div class="mt-10">
+                <button class="btn-cta" onclick="redirWhatsapp()">Mari Kerjasama</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card" id="jasa"> 
+                <div class="card-item">
+                    <img class="icon" src="assets/icon/24-hours.png" alt="">
+                    <p class="card-title">Pelayanan Nonstop</p>
+                    <p class="card-description">Service nonstop ketika anda membutuhkan bantuan</p>
+                </div>
+                <div class="card-item">
+                    <img class="icon" src="assets/icon/hot-deal.png" alt="">
+                    <p class="card-title">Jasa Paling Murah</p>
+                    <p class="card-description">Biaya jasa yang saya berikan pasti murah dan terjamin</p>
+                </div>
+                <div class="card-item">
+                    <img class="icon" src="assets/icon/rating.png" alt="">
+                    <p class="card-title">684 Review</p>
+                    <p class="card-description">Mereka senang dalam bekerja sama dengan saya</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="title">&copy; Taufiq Website 2022</p>
+    </footer>
+    <script>
+        function redirInstagram() {
+            window.location.href  = "https://instagram.com/taufiq1020"
+        }
+
+        function redirWhatsapp() {
+            window.location.href = "https://wa.me/+6283807025715"
+        }
+    </script>
+</body>
+
+</html>
